@@ -4,7 +4,7 @@ A prototype for the API of the Mire web app.
 ### Get Calls
 
 | URL | Description | Data Type |
-| - |
+| - | - | - |
 | /buddy/list | List your buddies | N/A |
 | /buddy/:id | View a specific buddy given their id | `id` |
 | /messages/:buddyId | Get a list of messages between you and the given buddy | `id` |
@@ -18,7 +18,7 @@ A prototype for the API of the Mire web app.
 ### Post Calls
 
 | URL | Description | Data Type | Expected Keys |
-| - |
+| - | - | - | - |
 | /messages/:buddyId | Send a message to the specified buddy | `id` | message (`string`) |
 | /user | Create a new user | N/A | name (`string`) |
 | /comments/:postId | Add a comment to a post | `id` | text (`string`) |
