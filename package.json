@@ -1,0 +1,25 @@
+{
+  "name": "mire-api-prototype",
+  "version": "1.0.0",
+  "description": "A prototype for the mire social networking website",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quire-Labs/mire-gabe-api-prototype.git"
+  },
+  "author": "Gabriel Hutchison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quire-Labs/mire-gabe-api-prototype/issues"
+  },
+  "homepage": "https://github.com/Quire-Labs/mire-gabe-api-prototype#readme"
+}
